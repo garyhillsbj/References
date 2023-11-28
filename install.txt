@@ -55,21 +55,13 @@ npx create-react-app frontend
 cd frontend
 
 ================================================react-native=============================================
+https://docs.expo.dev/tutorial/create-your-first-app/
 Install Node.js
-npm install -g react-native-cli
-npx react-native init YourProjectName
-npx react-native start
-npx react-native run-android
-
-
-npx create-expo-app myProject
-cd myProject
+npx create-expo-app StickerSmash
+cd StickerSmash
+download asset
+npx expo install react-dom react-native-web @expo/webpack-config
 npx expo start
-
-
-yarn create expo-app myProject
-cd myProject
-yarn expo start
 
 ===============================================================================================================
 
