@@ -1,0 +1,59 @@
+=============================================git=============================================
+git config --global user.email "garyhillsuccess@gmail.com"
+git config --global user.name "garyhillsbj"
+
+=============================================python==========================================
+        -----------------------------How to install python----------------------------------
+        1.install python package python3.11.5
+        2.set environment variables
+        	path:url of python.exe
+        	restart computer
+        in cmd or window powershell (mouse rightbuttonclick, run as administrator)
+        	Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+        3.install python extension in vscode
+        4. create venv
+        	py -m venv env
+        ------------------------how to create requirements.txt----------------------------------
+        pip freeze > requirements.txt
+        (example package >= 1.0, <= 2.0)
+        ----------------------how to install requirements.txt--------------------------------------
+        pip install -r requirements.txt
+        --------------------------how to install libraries-----------------------------------------
+        python.exe -m pip install --upgrade pip
+        pip install opencv_python	(install visual studio)
+        pip install pyautogui
+        pip install keyboard
+        pip install pandas
+        pip install tensorflow	(install visual studio)
+        pip install numpy
+        pip install flask
+        pip install kivy
+        pip install pymongo
+        ------------------------how to build app using pyinstaller------------------------------------------
+        pip install pyinstaller
+        pyinstaller main.py --onefile
+        pyinstaller --onefile --add-data "images/*.png:images/" --add-data "sounds/*.mp3:sounds/" main.py
+
+==========================================langchain=====================================================
+pip install -U langchain openai chromadb langchainhub bs4
+pip install tiktoken
+
+===========================================Django=======================================================
+py -m venv env
+env\scripts\activate
+pip install django
+django-admin startproject my_tennis_club
+cd my_tennis_club
+py manage.py startapp members
+create urls.py in the same folder as the views.py
+Create a templates folder inside the members folder, and create a HTML file named myfirst.html.
+in my_tennis_club/my_tennis_club/settings.py:add ,members
+py manage.py migrate
+
+create the frontend react application in the current directory project1 that contains the manage.py file
+npx create-react-app frontend
+cd frontend
+
+============================================================================================================
+
+
