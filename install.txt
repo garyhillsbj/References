@@ -63,6 +63,16 @@ download asset
 npx expo install react-dom react-native-web @expo/webpack-config
 npx expo start
 
-===============================================================================================================
-
+=================================================flutter==============================================================
+download flutter
+extra zip
+setting environment variables
+install vscode
+install flutter and dart in vscode
+install microsoft visual studio
+install android studio
+open android->tools/SDK Manager/Android SDK/SDK Tools/android SDK command-line tools(last)
+in cmd
+flutter doctor
+flutter doctor --android-licenses
 
