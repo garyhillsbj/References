@@ -83,4 +83,4 @@ android emulator
         Select one or more system images for the Android versions you want to emulate, and select Next. An x86 or x86_64 image is                 recommended.
         Under Emulated Performance, select Hardware - GLES 2.0 to enable hardware acceleration.
         Verify the AVD configuration is correct, and select Finish.
-
+        https://github.com/kstar0102
