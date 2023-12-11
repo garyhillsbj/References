@@ -84,3 +84,5 @@ android emulator
         Under Emulated Performance, select Hardware - GLES 2.0 to enable hardware acceleration.
         Verify the AVD configuration is correct, and select Finish.
         https://github.com/kstar0102
+https://codelabs.developers.google.com/codelabs/flutter-flame-brick-breaker#10
+https://blog.codemagic.io/flutter-flame-game-development/
